@@ -2,9 +2,8 @@
 
 Projeto de análise de sentimentos em tweets com pipeline completo: EDA, pré-processamento, modelagem supervisionada e disponibilização via API. Desenvolvido para prática intensiva em NLP com Python e integração de modelos em ambientes de produção.
 
----
 
-## 📌 Objetivos do Projeto
+## Objetivos do Projeto
 
 - Análise exploratória e visualização de sentimentos em dados reais;
 - Limpeza e pré-processamento textual para tarefas de NLP;
@@ -12,9 +11,8 @@ Projeto de análise de sentimentos em tweets com pipeline completo: EDA, pré-pr
 - Exposição de modelo via API com FastAPI;
 - Organização modular seguindo boas práticas para ambientes profissionais.
 
----
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python 3.11**
 - **Pandas, NumPy** — manipulação de dados;
@@ -23,15 +21,13 @@ Projeto de análise de sentimentos em tweets com pipeline completo: EDA, pré-pr
 - **FastAPI** — API REST;
 - **Jupyter Notebook** — experimentação e EDA interativa.
 
----
 
-## 📊 Dataset
+## Dataset
 
 - **Fonte**: [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
 - **Tamanho**: ~14.6k tweets rotulados como `positive`, `neutral`, `negative`.
 - **Objetivo**: Predição automática do sentimento associado a textos curtos (tweets).
 
----
 
 ## 🟣 Status
 
@@ -40,9 +36,8 @@ Projeto de análise de sentimentos em tweets com pipeline completo: EDA, pré-pr
 - 🔜 Próxima etapa: modelagem supervisionada;
 - 🔜 API para inferência em tempo real.
 
----
 
-## 💻 Como rodar localmente
+## Execute o projeto
 
 ```bash
 # Instalar dependências
@@ -54,3 +49,8 @@ jupyter notebook notebooks/eda_model_training.ipynb
 # Rodar API (em desenvolvimento)
 uvicorn app.main:app --reload
 ```
+
+Desenvolvido por **Elisiane Quadros**
+[LinkedIn](https://www.linkedin.com/in/elisiane-quadros/) • © 2025  
+
+Este projeto está licenciado sob a [MIT License](LICENSE).

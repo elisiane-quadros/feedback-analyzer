@@ -29,7 +29,7 @@ Projeto de análise de sentimentos em tweets com pipeline completo: EDA, pré-pr
 - **Objetivo**: Predição automática do sentimento associado a textos curtos (tweets).
 
 
-## 🟣 Status
+## Status
 
 - ✅ EDA e limpeza concluída;
 - ✅ Dataset limpo salvo para modelagem;
@@ -46,8 +46,6 @@ pip install -r requirements.txt
 # Executar EDA
 jupyter notebook notebooks/eda_model_training.ipynb
 
-# Rodar API (em desenvolvimento)
-uvicorn app.main:app --reload
 ```
 
 Desenvolvido por **Elisiane Quadros**

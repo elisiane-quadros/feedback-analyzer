@@ -1,4 +1,4 @@
-# Feedback Analyzer — Sentiment Analysis with NLP
+# Feedback Analyzer — Análise de Sentimentos com NLP
 
 Projeto de análise de sentimentos em tweets com pipeline completo: EDA, pré-processamento, modelagem supervisionada e disponibilização via API. Desenvolvido para prática intensiva em NLP com Python e integração de modelos em ambientes de produção.
 
